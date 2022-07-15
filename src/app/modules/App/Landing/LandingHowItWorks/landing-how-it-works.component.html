@@ -1,1 +1,27 @@
-<p>landing-how-it-works works!</p>
+<section id="landing-how-it-works">
+    <div class="container-fluid bg-off-white pt-5">
+        <div class="row justify-content-center mb-3">
+            <div class="col-auto">
+                <h2>How It Works</h2>
+            </div>
+        </div>
+        <div class="row text-center mx-5 px-5">
+                <div class="col mb-5" *ngFor="let stepInfo of stepsInformation; index as i">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <h3>{{ '0' + (i + 1) }}</h3>
+                        </div>
+                        <div class="col pb-3 pt-1">
+                            <hr class="green">
+                        </div>
+                        <div class="col">
+                            <p class="p-uppercase">{{ stepInfo.title }}</p>
+                        </div>
+                        <div class="col">
+                            <p class="p-lighter">{{ stepInfo.body }}</p>
+                        </div>
+                    </div>
+                  </div>
+        </div>
+      </div>
+</section>

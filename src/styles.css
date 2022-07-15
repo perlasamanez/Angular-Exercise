@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* Global Style Sheet */
 
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
 }
 
 p {
@@ -15,6 +28,15 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
+}
+
+.p-uppercase {
+    text-transform: uppercase;
+}
+
+.p-lighter {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 /* Buttons */
@@ -44,4 +66,17 @@ button {
 .logo {
     width: 150px;
     height: auto;
+}
+
+/* Elements */
+hr.green {
+    border: 3px solid #47E4C3;
+    background-color: #47E4C3;
+    opacity: 1.25;
+    width: 20%;
+    margin: auto;
+}
+
+.bg-off-white {
+    background-color: #F2F1EF;
 }
