@@ -31,6 +31,6 @@ See the website by running the following command:
 
 `ng serve --open`  
 
-### Thank you
+## Thank you
 
 Thank you for taking a look at my application. Please reach out if you encounter any issues to perla.dc@outlook.com
