@@ -1,27 +1,36 @@
-# AngularExercise
+# Angular Exercise (Website for fictitious Endless Company)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
-## Development server
+## Clone the project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To get started, first clone the project to your local:
 
-## Code scaffolding
+`git clone https://github.com/perlasamanez/angular-exercise.git`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation requirements
 
-## Build
+1. Check if node and npm are installed. If not installed, download it from here https://nodejs.org/en/.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`node -v`
+`npm --version`
 
-## Running unit tests
+2. Check if Angular is installed.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`ng version` or `ng --version`
 
-## Running end-to-end tests
+If not installed, run the following command to get the latest Angular version:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`npm install -g @angular/cli@latest`
 
-## Further help
+Note: These commands work in macOS/Linux. If in Windows machine, you might have to download https://gitforwindows.org/  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## To load the application
+
+See the website by running the following command:
+
+`ng serve --open`  
+
+### Thank you
+
+Thank you for taking a look at my application. Please reach out if you encounter any issues to perla.dc@outlook.com
