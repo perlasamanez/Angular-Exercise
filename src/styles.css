@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Fonts */
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.p-header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+
+button {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-light {
+    background-color: #47E4C1 !important;
+    border-color: #47E4C1 !important;
+    color: black;
+    border-radius: 15px;
+    padding-left: 6%;
+    padding-right: 6%;
+    transition: 1s;
+}
+
+.btn-light:active, .btn-light:hover, .btn-light:focus-visible {
+    background-color: #278772 !important;
+    border-color: #278772 !important;
+    color: black;
+    transition: none;
+}
+
+/* Images */
+.logo {
+    width: 150px;
+    height: auto;
+}

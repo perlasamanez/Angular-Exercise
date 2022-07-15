@@ -1,0 +1,14 @@
+.landing-intro {
+    padding: 15% 15% 20%;
+    background: url("~src/assets/img/photo-couch_2x.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+    .landing-intro {
+        padding: 10% 15% 10%
+    }
+}
